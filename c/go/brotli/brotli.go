@@ -1,8 +1,7 @@
 package brotli
 
 /*
-#cgo CFLAGS: -I. -I../../..
-#cgo LDFLAGS: -L../../../target/release -L../target/release -L../../target/release -lbrotli_ffi -lm -ldl
+#cgo LDFLAGS: -lbrotli_ffi -lm -ldl
 #include "brotli/encode.h"
 #include "brotli/decode.h"
 #include "brotli/broccoli.h"
